@@ -104,7 +104,7 @@ nav a {
   display: flex;
   align-items: center;
   margin-right: 30px;
-  justify-content: space-between;
+  gap: 10px;
 }
 .contact {
   display: flex;
@@ -112,7 +112,7 @@ nav a {
   border: 1px solid #fd6e0a;
   color: #fd6e0a;
   align-items: center;
-  padding-top: 18px;
+  gap: 10px;
 }
 
 .btn {
@@ -164,10 +164,15 @@ main section {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 .resume-container {
   display: flex;
   gap: 24px;
+}
+.resume-item-institute {
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 .resume-item-institute,
 .resume-item-description {
@@ -177,7 +182,12 @@ main section {
   color: #474747;
   font-size: 25px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
-.resume-container {
-  margin: 30px;
+.resume-container hr {
+  margin: 30px 0;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
