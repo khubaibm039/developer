@@ -40,7 +40,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 200px 0 200px;
+  margin: 0 200px 0 200px;
 }
 .nav-title {
   color: #181818;
@@ -64,9 +64,11 @@ nav a {
 /* header related style */
 .header {
   background: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  padding-top: 50px;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 
 .banner {
